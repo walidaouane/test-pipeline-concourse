@@ -4,14 +4,6 @@ resources:
   source:
     uri: git@github.com:walidaouane/test-pipeline-concourse.git
     branch: main
-    private_key: |
-      -----BEGIN OPENSSH PRIVATE KEY-----
-      b3BlbnNzaC1rZXktdjEAAAAABG5vbmUAAAAEbm9uZQAAAAAAAAABAAAAMwAAAAtzc2gtZW
-      QyNTUxOQAAACCocq8JkwNy5411ohxWYipZSq4WiyVslT8p9cxmtHP0sgAAAJh+YokOfmKJ
-      DgAAAAtzc2gtZWQyNTUxOQAAACCocq8JkwNy5411ohxWYipZSq4WiyVslT8p9cxmtHP0sg
-      AAAEC8jCSVwwdY/p2bxwUVRwu7tCrxAPn0JKA///Q5dSoSYahyrwmTA3LnjXWiHFZiKllK
-      rhaLJWyVPyn1zGa0c/SyAAAAFXdhbGlkOTEuaW5mQGdtYWlsLmNvbQ==
-      -----END OPENSSH PRIVATE KEY-----
 jobs:
 - name: hello-world-job2
   plan:
