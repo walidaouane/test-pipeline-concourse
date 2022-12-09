@@ -16,6 +16,8 @@ jobs:
         type: registry-image
         source:
           repository: busybox
-      run:
-        path: echo
-        args: ["Hello World!"]
+      inputs: # add the get step as an input to this task
+      - name: repo
+      run: # read the file from the get step
+        path: cat
+        args: ["repo/README.md"]
