@@ -2,7 +2,7 @@ resources:
 - name: repo
   type: git
   source:
-    uri: git@github.com:walidaouane/test-pipeline-concourse.git
+    uri: https://github.com/walidaouane/test-pipeline-concourse.git
     branch: main
 jobs:
 - name: hello-world-job2
