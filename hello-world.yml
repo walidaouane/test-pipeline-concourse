@@ -5,7 +5,7 @@ resources:
     uri: https://github.com/walidaouane/test-pipeline-concourse.git
     branch: main
 jobs:
-- name: hello-world-job2
+- name: hello-world-job
   plan:
   - get: repo
     trigger: true   # tell Concourse to trigger this job when new versions are emitted
