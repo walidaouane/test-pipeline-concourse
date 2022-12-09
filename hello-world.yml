@@ -44,7 +44,7 @@ resources:
       G7Qh4CbXRe3i0AAAAOd2FsaWRAd2FsaWQtdm0BAgMEBQ==
       -----END OPENSSH PRIVATE KEY-----
 jobs:
-- name: hello-world-job1
+- name: hello-world-job2
   plan:
   - get: repo
     trigger: true   # tell Concourse to trigger this job when new versions are emitted
